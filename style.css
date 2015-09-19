@@ -1,0 +1,222 @@
+/*
+Theme Name: Enduro
+Theme URI:
+Author: Juan Ignacio Fernandez
+Author URI:
+Description: Tema personalizado para la "Comunidad Enduro Tours"
+Version: 0.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: green, orange, white, black, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: enduro
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* Web Comunidad Enduro Tours */
+html {
+  height: 100%; }
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: 'Arial', 'Geneva', 'Lucida Sans Unicode', 'Lucida Grande';
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 300;
+  background-color: black;
+  max-width: 1024px;
+  min-height: 100%; }
+
+.container {
+  background-color: #252518; }
+
+.menu-menu-principal-container {
+  margin-top: -3.50rem;
+  border-bottom: 3px solid white; }
+
+.menu-menu-principal-container ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  background-color: black;
+  opacity: 0.75;
+  height: 3.5rem;
+  align-items: center; }
+  .menu-menu-principal-container ul li {
+    padding: 0.5rem 0;
+    font-size: 2rem; }
+    .menu-menu-principal-container ul li a:hover {
+      color: white; }
+
+.attachment-large {
+  width: 100%;
+  height: 100%; }
+
+#social-networks {
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+  justify-content: space-around;
+  position: absolute;
+  top: 1%;
+  right: 12.5%;
+  width: 200px;
+  background-color: black;
+  color: white;
+  opacity: 0.75%; }
+
+h1, h2 {
+  margin: 2rem 2rem;
+  color: orange;
+  height: 100%; }
+
+h1 {
+  font-size: 2rem; }
+
+h2 {
+  margin: 2rem 3rem;
+  font-size: 1.5rem; }
+
+section.contexto {
+  font-size: 1.15rem;
+  color: white; }
+  section.contexto article.contenido {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start; }
+    section.contexto article.contenido div.post-texto {
+      margin: 1rem 2.5%; }
+      section.contexto article.contenido div.post-texto:before {
+        content: '"';
+        font-size: 8rem;
+        color: orange;
+        margin-top: 2rem;
+        float: left; }
+      section.contexto article.contenido div.post-texto ol, section.contexto article.contenido div.post-texto ul {
+        list-style: circle;
+        margin: 0 8rem; }
+      section.contexto article.contenido div.post-texto ol li {
+        margin: 1rem 0; }
+      section.contexto article.contenido div.post-texto ul li {
+        margin: 1rem -2rem; }
+      section.contexto article.contenido div.post-texto p {
+        margin: 1rem 1rem 1rem 3rem; }
+    section.contexto article.contenido div.post-texto.multiple {
+      width: 50%; }
+    section.contexto article.contenido div.post-texto.single {
+      flex-grow: 1; }
+    section.contexto article.contenido div.post-mapa {
+      width: 50%;
+      margin: 0 auto;
+      -webkit-box-shadow: 2px 2px 5px 0px #16160e;
+      -moz-box-shadow: 2px 2px 5px 0px #16160e;
+      box-shadow: 2px 2px 5px 0px #16160e; }
+    section.contexto article.contenido div.post-imagenes figure.impar {
+      position: relative;
+      top: -100px;
+      z-index: 99; }
+    section.contexto article.contenido div.post-imagenes figure.par {
+      position: relative;
+      z-index: 100;
+      left: 40%; }
+    section.contexto article.contenido div.post-imagenes figure img {
+      -webkit-box-shadow: 2px 2px 5px 0px #16160e;
+      -moz-box-shadow: 2px 2px 5px 0px #16160e;
+      box-shadow: 2px 2px 5px 0px #16160e; }
+    section.contexto article.contenido div.post-imagenes figure figcaption {
+      background-color: black;
+      color: orange;
+      opacity: 0.75;
+      font-size: 1rem;
+      position: relative;
+      top: -2.2rem;
+      padding-left: 1rem; }
+  section.contexto article {
+    margin: 0 2rem;
+    line-height: 1.75rem; }
+  section.contexto article.extra {
+    margin: 2rem 4rem; }
+
+big, th {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  color: orange; }
+
+thead {
+  border-bottom: 3px solid orange; }
+
+td {
+  width: 33%;
+  padding: 0 1rem; }
+
+a {
+  text-decoration: none;
+  color: orange; }
+
+footer {
+  border-top: 3px solid white;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  color: white;
+  padding-top: 0.5rem;
+  font-size: 0.8rem; }
+
+.badge {
+  border-radius: 15%;
+  background-color: orange;
+  padding: 5px; }
+
+input.wpcf7-form-control, textarea.wpcf7-form-control {
+  font-size: 1rem;
+  width: 100%;
+  border-radius: 5px;
+  padding-left: 1rem;
+  color: black;
+  background-color: lightgray; }
+
+input.wpcf7-submit {
+  background-color: orange;
+  color: white;
+  border-radius: 10px;
+  margin-top: 2rem; }
+
+form.wpcf7-form {
+  margin: 0 auto;
+  width: 75%; }
+  form.wpcf7-form p {
+    color: orange; }
