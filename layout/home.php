@@ -1,12 +1,14 @@
 <body>
     <div class="container">
-        <?php include (TEMPLATEPATH . '/layout/header.php'); ?>
+    <?php
+        get_template_part('/layout/header');
 
-        <?php include (TEMPLATEPATH . '/layout/nav-main.php'); ?>
+        get_template_part('/components/nav-main');
 
-        <?php include (TEMPLATEPATH . '/layout/main-content-two-cols.php'); ?>
+        get_template_part('/layout/main-two-cols', 'content');
 
-        <?php include (TEMPLATEPATH . '/layout/footer.php'); ?>
+        get_template_part('/layout/footer');
+    ?>
     </div>
 </body>
 </html>

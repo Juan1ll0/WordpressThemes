@@ -220,3 +220,12 @@ form.wpcf7-form {
   width: 75%; }
   form.wpcf7-form p {
     color: orange; }
+
+.alignright {
+  text-align: right; }
+
+.alignleft {
+  text-align: left; }
+
+.aligncenter {
+  text-align: center; }

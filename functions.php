@@ -25,15 +25,16 @@ function add_wp3menu_support() {
 
 register_nav_menus(
         array(
-            'main-menu' => __('Main Navigation'),
-            'another-menu' => __('Another Navigation')
+            'main-menu' => __( 'Main Navigation' ),
+            'another-menu' => __( 'Another Navigation' )
         )
      );
 
 }
 
 //Add the above function to init hook.
-add_action('init', 'add_wp3menu_support');
+add_action( 'init', 'add_wp3menu_support' );
 
-// Imagen destacada
-add_theme_support('post-thumbnails');
+// Soporte del tema
+add_theme_support( 'post-thumbnails' );
+add_theme_support( 'automatic-feed-links' );

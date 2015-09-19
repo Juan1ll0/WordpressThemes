@@ -1,7 +1,7 @@
 <main>
     <h1><?php echo the_title() . "..."; ?></h1>
     <section class="contexto">
-        <h2>Información...</h2>
+        <h2>Informaci&oacute;n...</h2>
         <article class="contenido">
         <?php
             if ( have_posts() ) {
