@@ -80,6 +80,8 @@ body {
     font-size: 2rem; }
     .menu-menu-principal-container ul li a:hover {
       color: white; }
+    .menu-menu-principal-container ul li.current_page_item a {
+      color: white; }
 
 .attachment-large {
   width: 100%;
